@@ -1,0 +1,10 @@
+/* Header.css */
+
+.header {
+  background: linear-gradient(135deg, #f06, #f90);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
