@@ -5,7 +5,8 @@ import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import RegisterForm from './pages/RegisterForm';
 import UserProfiles from './pages/UserProfiles';
-
+import ViewMap from './pages/ViewMap';
+import Reports from './pages/Reports';
 
 
 const App = () => {
@@ -17,6 +18,8 @@ const App = () => {
             "/dashboard": "Dashboard - FlameGuard",
             "/register": "Register - FlameGuard",
             "/profiles": "User Profiles - FlameGuard",
+            "/viewmap": "View Map - FlameGuard",
+            "/reports": "Reports - FlameGuard",
 
 
         };
@@ -29,6 +32,8 @@ const App = () => {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/register" element={<RegisterForm />} />
             <Route path="/profiles" element={<UserProfiles />} />
+            <Route path="/viewmap" element={<ViewMap />} />
+            <Route path="/reports" element={<Reports/>} />
 
         </Routes>
     );

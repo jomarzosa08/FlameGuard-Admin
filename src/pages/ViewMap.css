@@ -1,0 +1,24 @@
+.view-map-page {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Take full viewport height */
+}
+
+.map-container {
+    flex-grow: 1;
+    width: 100%;
+    height: calc(var(--vh, 1vh) * 100); /* Adjust dynamically for mobile viewport */
+}
+
+@media (max-width: 768px) {
+    .map-container {
+        height: 100%; /* For small screens */
+    }
+}
